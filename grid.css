@@ -1,6 +1,7 @@
 .Imagem{
     width: 80px!important;
     height: 60px!important;
+
 }
 .div-todasimagens{
     display: grid;
@@ -8,6 +9,7 @@
     text-align: center;
     margin-top: 25px;
     position: inherit;
+
 }
 .titulo{
     font-size: 10px;
