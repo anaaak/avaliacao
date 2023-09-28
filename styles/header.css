@@ -62,3 +62,33 @@
 .logo{
     width: 120px;
 }
+
+@media screen and (min-width: 1024px) {
+    .titulo__cabecalho{
+        font-size: 30px;
+        font-family: var(--font-secundaria);
+        color: rgb(148, 180, 32);
+    } 
+    .opcoes{
+        display: flex;
+    } 
+    .opcoes__item{
+        padding: 0 1em;
+    } 
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+}
+.container__imagem--transparente{
+    display: none;
+}
+.cabecalho__menu-hamburguer{
+    display: none;
+}
+.opcoes__botao:checked~.lista-menu{
+    display: block;
+}
+.opcoes__botao{
+    display: none;
+}
